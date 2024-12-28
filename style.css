@@ -3,37 +3,15 @@ body {
     margin: 0; 
     padding: 0; 
     box-sizing: border-box; 
-    background-color: #007bff; /* Blue background color */
-    color: #fff; /* White text color */
+    background-color: #fff; /* White background for the entire page */ 
+    color: #333; /* Dark text color */
 }
 
 .container {
-    text-align: center;
-    margin-top: 100px; 
-    background-color: #0056b3; 
-    padding: 20px; 
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #007bff; /* Blue background for the container */
+    color: #fff; 
     border-radius: 5px; 
-}
-
-.title {
-    font-size: 3em; 
-}
-
-nav {
-    margin-bottom: 20px;
-}
-
-nav a {
-    color: #8B4513; /* Brown color */
-    text-decoration: none;
-    margin: 0 15px;
-}
-
-.student-info {
-    margin-top: 20px; 
-    font-size: 1.2em; 
-}
-
-.info-item {
-    margin-bottom: 5px; 
 }
