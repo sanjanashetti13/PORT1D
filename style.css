@@ -3,13 +3,23 @@ body {
     margin: 0; 
     padding: 0; 
     box-sizing: border-box; 
-    background-color: #003366; /* Darker blue for the main background */
+    background-color: #003366; 
     color: #fff; 
 }
 .container {
     text-align: center;
     margin-top: 100px; 
-    background-color: #0056b3; /* Lighter blue for the container background */
+    background-color: #0056b3; 
     padding: 20px; 
     border-radius: 5px; 
+}
+.title {
+    font-size: 3em; 
+}
+.student-info {
+    margin-top: 20px; 
+    font-size: 1.2em; /* Increase font size */
+}
+.info-item {
+    margin-bottom: 5px; /* Add some spacing between items */
 }
