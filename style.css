@@ -1,22 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DAA Learning Portfolio</title>
-    <link rel="stylesheet" href="style.css"> 
-</head>
-<body>
-    <div class="container"> 
-        <header>
-            <h1 class="title">Design and Analysis of Algorithms</h1>
-            <p>Learning Portfolio</p>
-        </header>
-        <nav>
-            <a href="about-course.html">About the Course</a>
-            <a href="about-project.html">About the Project</a>
-            <a href="github-links.html">GitHub Links</a>
-        </nav>
-    </div>
-</body>
-</html>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    background-color: #007bff; /* Blue background color */
+    color: #fff; /* White text color */
+}
+.container {
+    text-align: center;
+    margin-top: 100px; /* Adjust for vertical centering */
+}
+.title {
+    font-size: 3em; /* Adjust font size as needed */
+}
+.student-info {
+    margin-top: 20px; 
+}
