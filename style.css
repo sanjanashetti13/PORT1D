@@ -8,3 +8,66 @@ body {
 
 .container {
     width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #000; /* Black background for the container */
+    border-radius: 5px; 
+    position: relative; 
+}
+
+.container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50%; 
+    background-color: #007bff; /* Blue background for the top half */
+}
+
+.title {
+    color: #fff; /* White for main title */
+    font-size: 3em; 
+}
+
+nav a {
+    color: #fff; /* White color for navigation links */
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.student-info {
+    margin-top: 20px; 
+    font-size: 1.2em; 
+    color: #fff; 
+}
+
+.info-item {
+    margin-bottom: 5px; 
+}
+
+/* For about-course.html */
+#data-structures,
+#searching-algorithms,
+#sorting-algorithms,
+#string-searching,
+#graph-algorithms {
+    margin-bottom: 20px;
+}
+
+/* For about-project.html */
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* For all pages */
+h1, h2 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
