@@ -7,24 +7,24 @@ body {
     justify-content: center;
     align-items: center; 
     min-height: 100vh; 
-    background-color: #fff; /* White background for the entire page */ 
+    background-color: #007bff; /* Set the body background to blue */
 }
 
 .container {
     width: 80%;
     padding: 20px;
-    background-color: #007bff; /* Blue background for the container */
+    background-color: #fff; /* White container */
     border-radius: 5px; 
     text-align: center;
 }
 
 .title {
-    color: #fff; 
+    color: #007bff; /* Blue title color */
     font-size: 3em; 
 }
 
 nav a {
-    color: #fff; 
+    color: #007bff; /* Blue color for navigation links */
     text-decoration: none;
     margin: 0 15px;
 }
@@ -32,7 +32,7 @@ nav a {
 .student-info {
     margin-top: 20px; 
     font-size: 1.2em; 
-    color: #fff; 
+    color: #007bff; 
 }
 
 .info-item {
