@@ -14,6 +14,17 @@ body {
     background-color: #007bff; /* Blue background for the container */
     color: #fff; 
     border-radius: 5px; 
+    position: relative; /* Position the container relative to itself */
+}
+
+.container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50%; /* Adjust height as needed */
+    background-color: #007bff; /* Match container background color */
 }
 
 .title {
