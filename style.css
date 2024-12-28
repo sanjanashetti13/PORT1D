@@ -3,5 +3,37 @@ body {
     margin: 0; 
     padding: 0; 
     box-sizing: border-box; 
-    background-color: #f0f0f0; /* Light Gray background for all pages */ 
-    color: #333; /* Darker text color
+    background-color: #007bff; /* Blue background color */
+    color: #fff; /* White text color */
+}
+
+.container {
+    text-align: center;
+    margin-top: 100px; 
+    background-color: #0056b3; 
+    padding: 20px; 
+    border-radius: 5px; 
+}
+
+.title {
+    font-size: 3em; 
+}
+
+nav {
+    margin-bottom: 20px;
+}
+
+nav a {
+    color: #8B4513; /* Brown color */
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.student-info {
+    margin-top: 20px; 
+    font-size: 1.2em; 
+}
+
+.info-item {
+    margin-bottom: 5px; 
+}
