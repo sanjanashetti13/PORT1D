@@ -3,15 +3,14 @@ body {
     margin: 0; 
     padding: 0; 
     box-sizing: border-box; 
-    background-color: #fff; /* White background for the entire page */ 
-    color: #333; /* Dark text color */
+    background-color: #fff; 
 }
 
 .container {
     width: 80%;
     margin: 0 auto;
     padding: 20px;
-    background-color: #000; /* Change to black background */
+    background-color: #000; 
     border-radius: 5px; 
     position: relative; 
 }
@@ -23,22 +22,16 @@ body {
     left: 0;
     width: 100%;
     height: 50%; 
-    background-color: #000; /* Change to black background */
+    background-color: #000; 
 }
 
-.title, 
-.container p, 
-nav a, 
-.student-info p {
-    color: #fff; /* White text color for better contrast */
-}
-
-nav {
-    margin-bottom: 20px;
+.title {
+    color: #fff; /* White for main title */
+    font-size: 3em; 
 }
 
 nav a {
-    color: #fff; /* White color for navigation links */
+    color: red; /* Red color for navigation links */ 
     text-decoration: none;
     margin: 0 15px;
 }
@@ -46,6 +39,7 @@ nav a {
 .student-info {
     margin-top: 20px; 
     font-size: 1.2em; 
+    color: #fff; 
 }
 
 .info-item {
