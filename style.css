@@ -24,9 +24,5 @@ body {
     margin-bottom: 5px; 
 }
 nav a {
-    color: #ffffff; /* Change link color to white */
-    text-decoration: none;
-}
-nav a:hover {
-    color: #0099ff; /* Change hover color to a lighter blue */
+    color: #8B4513; /* Brown color */ 
 }
