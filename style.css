@@ -18,8 +18,15 @@ body {
 }
 .student-info {
     margin-top: 20px; 
-    font-size: 1.2em; /* Increase font size */
+    font-size: 1.2em; 
 }
 .info-item {
-    margin-bottom: 5px; /* Add some spacing between items */
+    margin-bottom: 5px; 
+}
+nav a {
+    color: #ffffff; /* Change link color to white */
+    text-decoration: none;
+}
+nav a:hover {
+    color: #0099ff; /* Change hover color to a lighter blue */
 }
