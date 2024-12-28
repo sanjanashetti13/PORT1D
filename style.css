@@ -42,9 +42,9 @@ nav a {
 }
 
 /* Course Details Styling */
-h1 {
+h1, h2 {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 ul {
     list-style: none;
