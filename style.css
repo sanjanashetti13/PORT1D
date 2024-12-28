@@ -3,11 +3,11 @@ body {
     margin: 0; 
     padding: 0; 
     box-sizing: border-box; 
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    min-height: 100vh; 
     background-color: #fff; /* White background for the entire page */ 
-    display: flex; /* Enable flexbox for centering */
-    justify-content: center; /* Center content horizontally */
-    align-items: center; /* Center content vertically */
-    min-height: 100vh; /* Make body height at least as tall as the viewport */
 }
 
 .container {
@@ -15,16 +15,16 @@ body {
     padding: 20px;
     background-color: #007bff; /* Blue background for the container */
     border-radius: 5px; 
-    text-align: center; /* Center content within the container */
+    text-align: center;
 }
 
 .title {
-    color: #fff; /* White for main title */
+    color: #fff; 
     font-size: 3em; 
 }
 
 nav a {
-    color: #fff; /* White color for navigation links */
+    color: #fff; 
     text-decoration: none;
     margin: 0 15px;
 }
