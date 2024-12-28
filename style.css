@@ -1,52 +1,7 @@
-/* Basic Styling */
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+    margin: 0; 
+    padding: 0; 
     box-sizing: border-box; 
-}
-
-/* Container Styling */
-.container {
-    text-align: center;
-    margin-top: 100px; 
-    background-color: #0056b3; 
-    padding: 20px; 
-    border-radius: 5px; 
-}
-
-/* Title Styling */
-.title {
-    font-size: 3em; 
-    color: #fff; /* White text color */
-}
-
-/* Navigation Styling */
-nav {
-    margin-bottom: 20px;
-}
-nav a {
-    color: #8B4513; /* Brown color */
-    text-decoration: none;
-    margin: 0 15px;
-}
-
-/* Student Information Styling */
-.student-info {
-    margin-top: 20px; 
-    font-size: 1.2em; 
-    color: #fff; 
-}
-.info-item {
-    margin-bottom: 5px; 
-}
-
-/* Course Details Styling */
-h1, h2 {
-    text-align: center;
-    margin-bottom: 15px;
-}
-ul {
-    list-style: none;
-    padding-left: 0;
-}
+    background-color: #f0f0f0; /* Light Gray background for all pages */ 
+    color: #333; /* Darker text color
