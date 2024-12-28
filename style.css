@@ -1,28 +1,22 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
-    line-height: 1.6;
-}
-header {
-    text-align: center;
-    margin-bottom: 20px;
-}
-nav {
-    text-align: center;
-    margin-bottom: 20px;
-}
-nav a {
-    margin: 0 15px;
-    color: #0056b3;
-    text-decoration: none;
-}
-nav a:hover {
-    text-decoration: underline;
-}
-section {
-    margin-bottom: 20px;
-}
-footer {
-    text-align: center;
-    margin-top: 20px;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DAA Learning Portfolio</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <div class="container"> 
+        <header>
+            <h1 class="title">Design and Analysis of Algorithms</h1>
+            <p>Learning Portfolio</p>
+        </header>
+        <nav>
+            <a href="about-course.html">About the Course</a>
+            <a href="about-project.html">About the Project</a>
+            <a href="github-links.html">GitHub Links</a>
+        </nav>
+    </div>
+</body>
+</html>
