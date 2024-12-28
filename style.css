@@ -15,3 +15,52 @@ body {
     color: #fff; 
     border-radius: 5px; 
 }
+
+.title {
+    font-size: 3em; 
+}
+
+nav {
+    margin-bottom: 20px;
+}
+
+nav a {
+    color: #8B4513; /* Brown color */
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.student-info {
+    margin-top: 20px; 
+    font-size: 1.2em; 
+}
+
+.info-item {
+    margin-bottom: 5px; 
+}
+
+/* For about-course.html */
+#data-structures,
+#searching-algorithms,
+#sorting-algorithms,
+#string-searching,
+#graph-algorithms {
+    margin-bottom: 20px;
+}
+
+/* For about-project.html */
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* For all pages */
+h1, h2 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
